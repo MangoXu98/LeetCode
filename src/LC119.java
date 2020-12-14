@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LC119 {
     static List<Integer> getRow(int rowIndex) {
-        List list=new ArrayList();
+        List<Integer> list=new ArrayList<Integer>();
         long k=1;
         for(int i=0;i<=rowIndex;i++){
             list.add((int)k);

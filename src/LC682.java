@@ -3,7 +3,7 @@ import java.util.Stack;
 public class LC682 {
     static int calPoints(String[] ops) {
         int sum=0;
-        Stack<Integer> stack=new Stack();
+        Stack<Integer> stack=new Stack<Integer>();
         for(int i=0;i<ops.length;i++){
             if(ops[i].equals("C")){
                 stack.pop();

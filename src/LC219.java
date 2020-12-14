@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 public class LC219 {
     static boolean containsNearbyDuplicate(int[] nums, int k) {
-        HashSet hashSet=new HashSet();
+        HashSet<Integer> hashSet=new HashSet<Integer>();
         for (int i=0;i<nums.length;i++){
             if(hashSet.contains(nums[i])){
                 return true;
