@@ -1,4 +1,4 @@
-package code.tree;
+package tree;
 
 public class C100 {
 	static boolean isSameTree(TreeNode p, TreeNode q) {

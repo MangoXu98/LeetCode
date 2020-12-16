@@ -1,11 +1,11 @@
-package code.tree;
+package tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import code.tree.TreeNode;
+import tree.TreeNode;
 
 public class C107 {
 	public static void main(String[] args) {

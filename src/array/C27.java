@@ -1,4 +1,4 @@
-package code.array;
+package array;
 
 public class C27 {
 	static int removeElement(int[] nums, int val) { 
