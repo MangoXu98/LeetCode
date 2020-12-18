@@ -77,7 +77,7 @@ public class C107 {
 				List<Integer> level = new ArrayList<>();
 				int size = queue.size();
 				for (int i = 0; i < size; i++) {
-					TreeNode node = queue.poll();
+					TreeNode node = queue.poll(); 
 					level.add(node.val);
 					TreeNode left = node.left, right = node.right;
 					if (left != null) {
