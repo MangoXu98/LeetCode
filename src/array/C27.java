@@ -1,7 +1,11 @@
 package array;
 
+import java.util.List;
+
 public class C27 {
 	static int removeElement(int[] nums, int val) { 
+		List<E>
+		
 		int count = 0;
 		for (int i = 0; i < nums.length - count; i++) {
 			if (nums[i] == val) {

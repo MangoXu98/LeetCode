@@ -41,7 +41,7 @@ public class C47 {
 				if (used.get(i) == 1 || (set.contains(nums[i]))) {
 					continue;
 				}
-
+res.s
 				used.set(i, 1);
 				set.add(nums[i]);
 				tmp.add(nums[i]);
