@@ -1,4 +1,7 @@
+// coding UTF-8 test
 package tree;
+
+import javax.rmi.ssl.SslRMIClientSocketFactory;
 
 public class C100 {
 	static boolean isSameTree(TreeNode p, TreeNode q) {
@@ -13,6 +16,7 @@ public class C100 {
 		}
 		return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 	}
+	// SslRMIClientSocketFactory
 
 	public static void main(String[] args) {
 		TreeNode p = new TreeNode(1);
